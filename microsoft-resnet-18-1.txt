@@ -18,9 +18,9 @@ microsoft/resnet-18
 |       from large pool |  58480 KiB |  84640 KiB | 148464 KiB |  89984 KiB |
 |       from small pool |  17203 KiB |  18227 KiB |  32678 KiB |  15474 KiB |
 |---------------------------------------------------------------------------|
-| GPU reserved memory   | 122880 KiB | 122880 KiB | 122880 KiB |      0 B   |
-|       from large pool | 102400 KiB | 102400 KiB | 102400 KiB |      0 B   |
-|       from small pool |  20480 KiB |  20480 KiB |  20480 KiB |      0 B   |
+| GPU reserved memory   | 120832 KiB | 122880 KiB | 122880 KiB |   2048 KiB |
+|       from large pool | 102400 KiB | 102400 KiB | 102400 KiB |      0 KiB |
+|       from small pool |  18432 KiB |  20480 KiB |  20480 KiB |   2048 KiB |
 |---------------------------------------------------------------------------|
 | Non-releasable memory |  44189 KiB |  63933 KiB | 184584 KiB | 140395 KiB |
 |       from large pool |  42976 KiB |  59136 KiB | 154788 KiB | 111812 KiB |
@@ -34,9 +34,9 @@ microsoft/resnet-18
 |       from large pool |      13    |      18    |      32    |      19    |
 |       from small pool |     152    |     226    |     292    |     140    |
 |---------------------------------------------------------------------------|
-| GPU reserved segments |      15    |      15    |      15    |       0    |
+| GPU reserved segments |      14    |      15    |      15    |       1    |
 |       from large pool |       5    |       5    |       5    |       0    |
-|       from small pool |      10    |      10    |      10    |       0    |
+|       from small pool |       9    |      10    |      10    |       1    |
 |---------------------------------------------------------------------------|
 | Non-releasable allocs |      17    |      18    |      39    |      22    |
 |       from large pool |       7    |       7    |      13    |       6    |

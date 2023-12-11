@@ -18,9 +18,9 @@ google/vit-large-patch16-224-in21k
 |       from large pool |   1371 MiB |   1371 MiB |   1485 MiB | 116427 KiB |
 |       from small pool |    151 MiB |    152 MiB |    353 MiB | 206792 KiB |
 |---------------------------------------------------------------------------|
-| GPU reserved memory   |   1588 MiB |   1588 MiB |   1588 MiB |      0 B   |
-|       from large pool |   1388 MiB |   1388 MiB |   1388 MiB |      0 B   |
-|       from small pool |    200 MiB |    200 MiB |    200 MiB |      0 B   |
+| GPU reserved memory   |   1586 MiB |   1588 MiB |   1588 MiB |   2048 KiB |
+|       from large pool |   1388 MiB |   1388 MiB |   1388 MiB |      0 KiB |
+|       from small pool |    198 MiB |    200 MiB |    200 MiB |   2048 KiB |
 |---------------------------------------------------------------------------|
 | Non-releasable memory |  59330 KiB |  72016 KiB |   1041 MiB |    983 MiB |
 |       from large pool |  12196 KiB |  27230 KiB |    716 MiB |    704 MiB |
@@ -34,9 +34,9 @@ google/vit-large-patch16-224-in21k
 |       from large pool |     219    |     219    |     267    |      48    |
 |       from small pool |     540    |     541    |     760    |     220    |
 |---------------------------------------------------------------------------|
-| GPU reserved segments |     178    |     178    |     178    |       0    |
+| GPU reserved segments |     177    |     178    |     178    |       1    |
 |       from large pool |      78    |      78    |      78    |       0    |
-|       from small pool |     100    |     100    |     100    |       0    |
+|       from small pool |      99    |     100    |     100    |       1    |
 |---------------------------------------------------------------------------|
 | Non-releasable allocs |     105    |     105    |     333    |     228    |
 |       from large pool |       5    |       6    |      63    |      58    |

@@ -18,9 +18,9 @@ google/vit-base-patch32-224-in21k
 |       from large pool | 351616 KiB | 686592 KiB |    678 MiB | 343296 KiB |
 |       from small pool |  31740 KiB |  32764 KiB |    112 MiB |  83909 KiB |
 |---------------------------------------------------------------------------|
-| GPU reserved memory   |    794 MiB |    794 MiB |    794 MiB |      0 B   |
-|       from large pool |    760 MiB |    760 MiB |    760 MiB |      0 B   |
-|       from small pool |     34 MiB |     34 MiB |     34 MiB |      0 B   |
+| GPU reserved memory   | 444416 KiB |    794 MiB |    794 MiB | 368640 KiB |
+|       from large pool | 409600 KiB |    760 MiB |    760 MiB | 368640 KiB |
+|       from small pool |  34816 KiB |     34 MiB |     34 MiB |      0 KiB |
 |---------------------------------------------------------------------------|
 | Non-releasable memory |  61041 KiB | 108726 KiB |    823 MiB | 781995 KiB |
 |       from large pool |  57984 KiB | 107776 KiB |    712 MiB | 671872 KiB |
@@ -34,8 +34,8 @@ google/vit-base-patch32-224-in21k
 |       from large pool |      75    |     148    |     149    |      74    |
 |       from small pool |     312    |     313    |     575    |     263    |
 |---------------------------------------------------------------------------|
-| GPU reserved segments |      55    |      55    |      55    |       0    |
-|       from large pool |      38    |      38    |      38    |       0    |
+| GPU reserved segments |      37    |      55    |      55    |      18    |
+|       from large pool |      20    |      38    |      38    |      18    |
 |       from small pool |      17    |      17    |      17    |       0    |
 |---------------------------------------------------------------------------|
 | Non-releasable allocs |      40    |      41    |     149    |     109    |
