@@ -6,41 +6,41 @@ google/vit-base-patch16-224-in21k
 |===========================================================================|
 |        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
 |---------------------------------------------------------------------------|
-| Allocated memory      |   2480 MiB |   2489 MiB |   3918 MiB |   1438 MiB |
-|       from large pool |   2478 MiB |   2487 MiB |   3843 MiB |   1365 MiB |
-|       from small pool |      1 MiB |      2 MiB |     74 MiB |     73 MiB |
+| Allocated memory      |   2487 MiB |   2496 MiB |   3926 MiB |   1439 MiB |
+|       from large pool |   2485 MiB |   2494 MiB |   3850 MiB |   1365 MiB |
+|       from small pool |      1 MiB |      2 MiB |     75 MiB |     73 MiB |
 |---------------------------------------------------------------------------|
-| Active memory         |   2480 MiB |   2489 MiB |   3918 MiB |   1438 MiB |
-|       from large pool |   2478 MiB |   2487 MiB |   3843 MiB |   1365 MiB |
-|       from small pool |      1 MiB |      2 MiB |     74 MiB |     73 MiB |
+| Active memory         |   2487 MiB |   2496 MiB |   3926 MiB |   1439 MiB |
+|       from large pool |   2485 MiB |   2494 MiB |   3850 MiB |   1365 MiB |
+|       from small pool |      1 MiB |      2 MiB |     75 MiB |     73 MiB |
 |---------------------------------------------------------------------------|
-| Requested memory      |   2480 MiB |   2489 MiB |   3918 MiB |   1438 MiB |
-|       from large pool |   2478 MiB |   2487 MiB |   3843 MiB |   1365 MiB |
-|       from small pool |      1 MiB |      2 MiB |     74 MiB |     73 MiB |
+| Requested memory      |   2487 MiB |   2496 MiB |   3925 MiB |   1438 MiB |
+|       from large pool |   2485 MiB |   2494 MiB |   3850 MiB |   1365 MiB |
+|       from small pool |      1 MiB |      2 MiB |     75 MiB |     73 MiB |
 |---------------------------------------------------------------------------|
-| GPU reserved memory   |   2674 MiB |   2676 MiB |   2676 MiB |   2048 KiB |
-|       from large pool |   2672 MiB |   2672 MiB |   2672 MiB |      0 KiB |
-|       from small pool |      2 MiB |      4 MiB |      4 MiB |   2048 KiB |
+| GPU reserved memory   |   2696 MiB |   2696 MiB |   2696 MiB |      0 B   |
+|       from large pool |   2692 MiB |   2692 MiB |   2692 MiB |      0 B   |
+|       from small pool |      4 MiB |      4 MiB |      4 MiB |      0 B   |
 |---------------------------------------------------------------------------|
-| Non-releasable memory | 198569 KiB | 208098 KiB |   1704 MiB |   1510 MiB |
-|       from large pool | 198268 KiB | 207724 KiB |   1629 MiB |   1435 MiB |
-|       from small pool |    301 KiB |   2045 KiB |     75 MiB |     74 MiB |
+| Non-releasable memory | 181053 KiB | 218412 KiB |   1693 MiB |   1516 MiB |
+|       from large pool | 180752 KiB | 218013 KiB |   1617 MiB |   1440 MiB |
+|       from small pool |    301 KiB |   2045 KiB |     75 MiB |     75 MiB |
 |---------------------------------------------------------------------------|
-| Allocations           |     387    |     388    |     560    |     173    |
-|       from large pool |     210    |     211    |     308    |      98    |
-|       from small pool |     177    |     178    |     252    |      75    |
+| Allocations           |     388    |     421    |    2069    |    1681    |
+|       from large pool |     211    |     212    |     309    |      98    |
+|       from small pool |     177    |     210    |    1760    |    1583    |
 |---------------------------------------------------------------------------|
-| Active allocs         |     387    |     388    |     560    |     173    |
-|       from large pool |     210    |     211    |     308    |      98    |
-|       from small pool |     177    |     178    |     252    |      75    |
+| Active allocs         |     388    |     421    |    2069    |    1681    |
+|       from large pool |     211    |     212    |     309    |      98    |
+|       from small pool |     177    |     210    |    1760    |    1583    |
 |---------------------------------------------------------------------------|
-| GPU reserved segments |     101    |     102    |     102    |       1    |
-|       from large pool |     100    |     100    |     100    |       0    |
-|       from small pool |       1    |       2    |       2    |       1    |
+| GPU reserved segments |     103    |     103    |     103    |       0    |
+|       from large pool |     101    |     101    |     101    |       0    |
+|       from small pool |       2    |       2    |       2    |       0    |
 |---------------------------------------------------------------------------|
-| Non-releasable allocs |     103    |     103    |     256    |     153    |
-|       from large pool |     101    |     102    |     181    |      80    |
-|       from small pool |       2    |       2    |      75    |      73    |
+| Non-releasable allocs |     103    |     112    |    1171    |    1068    |
+|       from large pool |     101    |     102    |     174    |      73    |
+|       from small pool |       2    |      11    |     997    |     995    |
 |---------------------------------------------------------------------------|
 | Oversize allocations  |       0    |       0    |       0    |       0    |
 |---------------------------------------------------------------------------|
